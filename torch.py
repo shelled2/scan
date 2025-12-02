@@ -1,7 +1,7 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
-def load_llama3_8b(model_id: str = "meta-llama/Meta-Llama-3.1-8B-Instruct",
+def load_llama3_8b(model_id: str = "mcpotato/42-eicar-street",
                    device: str = None):
     """
     Loads the Llama 3.1 8B Instruct model with PyTorch + Transformers, returns a pipeline.
